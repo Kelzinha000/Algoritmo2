@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ let preco, quilos,  valor, gramas, calculo
+ 
+ preco = prompt("Digite o preço: ")
+ quilos = prompt("Digite os quilogramas: ")
+
+ calculo = preco/quilos
+ valor = (preco*1000)/100
+ gramas = (quilos*preco)/1000
+ 
+
+
+ document.write(`Preço por quilo: ${valor} e o consumo ${gramas} gramas\nO valor a ser pago é R$: ${valor+calculo}`)
+
+
+
+    </script>
+</body>
+</html>

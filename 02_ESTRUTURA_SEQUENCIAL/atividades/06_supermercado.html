@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let produto1, produto2, produto3, preco, promocao1, promocao2, promocao3
+
+    produto1= prompt("Digite abaixo o 1° produto de higiene : ")
+    preco1 = prompt("Digite abaixo o valor do intem 1: ")
+    produto2= prompt("Digite abaixo o 2° produto de higiene : ")
+    preco2 = prompt("Digite abaixo o valor do intem 2: ")
+    produto3= prompt("Digite abaixo o 3° produto de higiene : ")
+    preco3 = prompt("Digite abaixo o valor do intem 3: ")
+    
+    m1 = preco1*3
+    m2 = preco2*3
+    m3 = preco3*3
+
+    promocao1 = m1/2
+    promocao2 = m2/2
+    promocao3 = m3/2
+
+    document.write(`CHAMA!! 50% dedesconto (para um item) na compra de trêsunidades do produto. ${produto1} por R$:${preco1}    Sem desc.R$:${m1}     COM DESC.R$:${promocao1} /  ${produto2} por R$:${preco2}   sem desc.R$:${m2}     COM DESC.R$${promocao2} / ${produto3} por R$:${preco3}    sem desc.R$:${m3}    COM DESC.R$:${promocao3}`)
+S
+    </script>
+</body>
+</html>

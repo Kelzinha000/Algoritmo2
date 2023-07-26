@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let medicamento, promocao, preco, nome, subtr
+
+        medicamento = prompt("Qual o medicamento?")
+        preco = prompt("Qual o preço?")
+
+        promocao = preco * (2/100)
+        
+        subtr = preco - promocao
+
+        document.write(`Olá,a farmacia do Zé Ciço está em orferta, na compra de 2 unidades receba um desconto. Valor do ${medicamento} R$:${preco}\n, valor do desconto ${promocao}, Total ${subtr}`)
+        
+
+    </script>
+</body>
+</html>
