@@ -9,23 +9,32 @@
 <body>
    <script>
 
-    let altura, sexo, feminino, masculino, calculoF, calculoM
+    let altura, sexo, pesoIdeal
 
-    sexo = prompt("Escreva seu sexo \n Masculino ou Feminino")
-    altura = Number(prompt("Digite sua altura"))
+    altura = Number(prompt("Digite sua altura em metros"))
+    sexo = prompt("Digite seu  sexo biológico \n M - Masculino \n F - Feminino")
     
+    //toUpperCase() caix Alta
+    //toLowerCase() caixa baixa
 
-    if(feminino){ 
-        calculoF = 21/(altura*altura)
-      alert(`${calculoF}`)
+    sexo = sexo.toUpperCase()
+     
+    if(isNaN(altura) || altura === 0 || altura >= 2.51){
+      alert(`Digite uma altura válida ${altura}`)
+      location.reload()
 
-    }else if(masculino){
-        calculoM = 22/(altura*altura)
-     alert(`${calculoM}`)
+    } else if(sexo !="M" && sexo !="F"){
+       alert(`Digite um valor válido`)
+       location.reload()
     }
+     if(sexo === "F"){
+      pesoIdeal = 21 * Math.pow(altura, 2)
+      alert(`O peso ideal ${pesoIdeal.toFixed(2)}`)
 
-   
-
+     } else if(sexo === "M"){
+      pesoIdeal = 22 * Math.pow(altura,2)
+      alert(`O peso ideal ${pesoIdeal.toFixed(2)}`)
+     }
 
 
    </script>
