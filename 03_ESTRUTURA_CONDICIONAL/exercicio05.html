@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // velocidade constante  velocidadeCondutor variavel 
+
+        let  velocidadeCondutor
+
+        //velocidadeEstrada = Number(prompt("Informe a velocidade permitada "))
+        velocidadeCondutor = Number(prompt("Informe a velocidade do condutor "))
+       
+        const velocidadeEstrada = 80
+        if((velocidadeCondutor*1.20)<velocidadeEstrada){
+            alert(`Sem multa`)
+        }else if((velocidadeCondutor*1.20) == velocidadeEstrada){
+            alert(`Multa leve`)
+        }if((velocidadeCondutor*1.20)>velocidadeEstrada){
+            alert(`Multa grave`)
+        }
+        
+
+
+
+
+    </script>
+</body>
+</html>
