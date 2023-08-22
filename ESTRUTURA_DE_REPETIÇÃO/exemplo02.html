@@ -8,16 +8,16 @@
 </head>
 <body>
     <script>
-        let numero, tabuada
+        let valor// = i 
 
-        numero = Number(prompt("Digite um número para visualizar a tabuada"))
+        valor = Number(prompt("Digite um valor:"))
 
-        for(let i = 0; i <= 10; i++){
+        for(let valor = 0; valor < 10; valor--){
         
-            tabuada = `${numero}` + "x " + `${i}` + `=` `${numero * i}`
+        valor = valor - i - `\t`
 
         }
-
+        document.write(`${valor}`)
     </script>
 </body>
 </html>
