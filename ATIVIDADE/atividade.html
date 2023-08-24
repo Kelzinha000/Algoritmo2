@@ -8,16 +8,20 @@
 </head>
 <body>
     <script>
-        let valor// = i 
+        let num, i = 1
 
-        valor = Number(prompt("Digite um valor:"))
+        num = Number(prompt("Digite um número"))
 
-        for(let valor = 0; valor < 10; valor--){
-        
-        valor = valor - i - `\t`
+        if(num%i === 0 ){
+           if(num%2 != 0){
+            alert(`O ${num} é primo`)
+           }else{
+            alert(`O ${num} não é primo`)
+           }
 
+        }else{
+            alert(`${num} `)
         }
-        document.write(`${valor}`)
     </script>
 </body>
 </html>

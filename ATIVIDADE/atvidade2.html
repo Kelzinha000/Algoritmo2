@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let chinchilas, anoFazenda, totalChinchilas
+
+        chinchilas = Number(prompt("Digite a quantidade de chinchilas"))
+        anoFazenda = Number(prompt("Digite o tempo de criação"))
+        
+        totalChinchilas = chinchilas
+        for(let i = 2; i<= anoFazenda; i++){
+            totalChinchilas = totalChinchilas * 3
+
+        }
+
+        alert(`Iniciando com ${chinchilas} em ${anoFazenda} você tera o total de ${totalChinchilas} chinchilas`)
+
+    </script>
+</body>
+</html>

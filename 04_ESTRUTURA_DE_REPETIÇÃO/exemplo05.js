@@ -16,6 +16,7 @@ do{
     continue
   }else{
     alert(`Você saiu da aplicação!`)
+    break
   }
 
 }while(true);
