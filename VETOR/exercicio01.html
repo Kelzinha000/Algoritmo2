@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // por igor
+        let produto 
+        const produtos =[]
+        
+        // usa o do/while para quando não se sabe a quantidade esperada, para que repeta
+
+         do{
+            produto = prompt(`Digite um produto para cadastrar. Digite SAIR para encerrar`)
+            produtos.push(produto)
+           // toda vez que a pessoas digitar, vai guardando dentro de produtos e adicionando com o push
+        }while(produto != "SAIR")
+        produtos.pop() // remove o ultimo inten d lista , precisa tá fora da etrutura por que quando o usuario digite ele vai removanedo
+         document.write(`${produtos}`)
+         
+        // moziila e Wschool sites para ver
+         
+    </script>
+</body>
+</html>
