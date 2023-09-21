@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+
         console.log(2 == 2) //true
         console.log(2 == `2`) // true 2 (valor)
         console.log(2 === `2`) // false valor e o tipo de dado (crie o habito de criar comparac~]ap com 3 ===) 
@@ -20,6 +11,3 @@
 
 
         // tipo de dado boleano, strig,number 
-    </script>
-</body>
-</html>
